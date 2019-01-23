@@ -1,0 +1,1012 @@
+Index: IdeaProjects/Java/Java.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/Java/Java.iml	(date 1547215935104)
++++ IdeaProjects/Java/Java.iml	(date 1547215935104)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
++
+Index: IdeaProjects/sparkdev1/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/.idea/workspace.xml	(date 1547714397293)
++++ IdeaProjects/sparkdev1/.idea/workspace.xml	(date 1547714397293)
+@@ -0,0 +1,559 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="6592a004-1efc-4584-ab36-032ed8531f88" name="Default" comment="">
++      <change afterPath="$PROJECT_DIR$/../Java/Java.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_0.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sparkdev1.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/scala/CSVfile.scala" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/scala/Pro.scala" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uhc/data/sparkscalamethods.scala" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/scala/configuration.scala" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/scala/dateparsing.scala" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/scala/methods.scala" afterDir="false" />
++    </list>
++    <ignored path="$PROJECT_DIR$/out/" />
++    <ignored path="$PROJECT_DIR$/target/" />
++    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <option name="TRACKING_ENABLED" value="true" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FavoritesManager">
++    <favorites_list name="sparkdev1" />
++  </component>
++  <component name="FileEditorManager">
++    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
++      <file leaf-file-name="sparkscalamethods.scala" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uhc/data/sparkscalamethods.scala">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="154">
++              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
++              <folding>
++                <element signature="e#22#98#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="methods.scala" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/main/scala/methods.scala">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="119">
++              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="CSVfile.scala" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/src/main/scala/CSVfile.scala">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="81">
++              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
++              <folding>
++                <element signature="e#0#38#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++    </leaf>
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="package-info" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="CHANGED_PATHS">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++        <option value="$PROJECT_DIR$/src/main/scala/Pro.scala" />
++        <option value="$PROJECT_DIR$/src/main/scala/dateparsing.scala" />
++        <option value="$PROJECT_DIR$/src/main/scala/configuration.scala" />
++        <option value="$PROJECT_DIR$/src/main/scala/CSVfile.scala" />
++        <option value="$PROJECT_DIR$/src/main/scala/package-info.java" />
++        <option value="$PROJECT_DIR$/src/main/scala/com/uhc/data/sparkscalamethods.scala" />
++        <option value="$PROJECT_DIR$/src/main/scala/methods.scala" />
++      </list>
++    </option>
++  </component>
++  <component name="MavenImportPreferences">
++    <option name="importingSettings">
++      <MavenImportingSettings>
++        <option name="importAutomatically" value="true" />
++      </MavenImportingSettings>
++    </option>
++  </component>
++  <component name="MavenProjectNavigator">
++    <treeState>
++      <expand>
++        <path>
++          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
++          <item name="sparkdev" type="9519ce18:MavenProjectsStructure$ProjectNode" />
++        </path>
++        <path>
++          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
++          <item name="sparkdev" type="9519ce18:MavenProjectsStructure$ProjectNode" />
++          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
++        </path>
++      </expand>
++      <select />
++    </treeState>
++  </component>
++  <component name="ProjectFrameBounds" extendedState="6">
++    <option name="x" value="458" />
++    <option name="y" value="184" />
++    <option name="width" value="889" />
++    <option name="height" value="712" />
++  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectView">
++    <navigator proportions="" version="1">
++      <foldersAlwaysOnTop value="true" />
++    </navigator>
++    <panes>
++      <pane id="Scope" />
++      <pane id="PackagesPane" />
++      <pane id="ProjectPane">
++        <subPane>
++          <expand>
++            <path>
++              <item name="sparkdev1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="sparkdev1" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="sparkdev1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="sparkdev1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="sparkdev1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="sparkdev1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="sparkdev1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="sparkdev1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="scala" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="sparkdev1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="sparkdev1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="scala" type="462c0819:PsiDirectoryNode" />
++              <item name="data" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="sparkdev1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="sparkdev1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="test" type="462c0819:PsiDirectoryNode" />
++            </path>
++          </expand>
++          <select />
++        </subPane>
++      </pane>
++      <pane id="AndroidView" />
++    </panes>
++  </component>
++  <component name="PropertiesComponent">
++    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/lreddy15/IdeaProjects/sparkdev1/src/main/scala/CSVfile.scala" />
++    <property name="project.structure.last.edited" value="Libraries" />
++    <property name="project.structure.proportion" value="0.15" />
++    <property name="project.structure.side.proportion" value="0.2" />
++    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
++  </component>
++  <component name="RecentsManager">
++    <key name="CopyClassDialog.RECENTS_KEY">
++      <recent name="" />
++    </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\lreddy15\IdeaProjects\" />
++    </key>
++  </component>
++  <component name="RunDashboard">
++    <option name="ruleStates">
++      <list>
++        <RuleState>
++          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
++        </RuleState>
++        <RuleState>
++          <option name="name" value="StatusDashboardGroupingRule" />
++        </RuleState>
++      </list>
++    </option>
++  </component>
++  <component name="RunManager" selected="Application.HelloWorld">
++    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true">
++      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
++      <module name="sparkdev1" />
++      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
++    </configuration>
++    <configuration name="Pro" type="Application" factoryName="Application" temporary="true">
++      <option name="MAIN_CLASS_NAME" value="Pro" />
++      <module name="sparkdev1" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++    </configuration>
++    <configuration default="true" type="Application" factoryName="Application">
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++    </configuration>
++    <configuration default="true" type="JUnit" factoryName="JUnit">
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="PACKAGE_NAME" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="METHOD_NAME" />
++      <option name="TEST_OBJECT" value="class" />
++      <option name="VM_PARAMETERS" value="-ea" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
++      <patterns />
++    </configuration>
++    <configuration default="true" type="TestNG" factoryName="TestNG">
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="SUITE_NAME" />
++      <option name="PACKAGE_NAME" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="METHOD_NAME" />
++      <option name="GROUP_NAME" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="VM_PARAMETERS" value="-ea" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
++      <option name="OUTPUT_DIRECTORY" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
++      <option name="USE_DEFAULT_REPORTERS" value="false" />
++      <option name="PROPERTIES_FILE" />
++      <properties />
++      <listeners />
++    </configuration>
++    <list>
++      <item itemvalue="Application.Pro" />
++      <item itemvalue="Application.HelloWorld" />
++    </list>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.HelloWorld" />
++        <item itemvalue="Application.Pro" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="6592a004-1efc-4584-ab36-032ed8531f88" name="Default" comment="" />
++      <created>1547303171323</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1547303171323</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="TodoView">
++    <todo-panel id="selected-file">
++      <is-autoscroll-to-source value="true" />
++    </todo-panel>
++    <todo-panel id="all">
++      <are-packages-shown value="true" />
++      <is-autoscroll-to-source value="true" />
++    </todo-panel>
++  </component>
++  <component name="ToolWindowManager">
++    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
++    <layout>
++      <window_info anchor="right" id="Palette" order="3" />
++      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32838285" />
++      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49924356" visible="true" weight="0.26567656" />
++      <window_info anchor="right" id="Palette&#9;" order="3" />
++      <window_info id="Image Layers" order="2" />
++      <window_info anchor="right" id="Capture Analysis" order="3" />
++      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.26567656" />
++      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.04462935" />
++      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32838285" />
++      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
++      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8260212" weight="0.105610564" />
++      <window_info id="Capture Tool" order="2" />
++      <window_info id="Designer" order="2" />
++      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49669966" visible="true" weight="0.22163388" />
++      <window_info anchor="bottom" id="Find" order="1" />
++      <window_info id="Structure" order="1" sideWeight="0.5033003" side_tool="true" weight="0.21860817" />
++      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
++      <window_info id="UI Designer" order="2" />
++      <window_info anchor="right" id="Theme Preview" order="3" />
++      <window_info id="Favorites" order="2" side_tool="true" weight="0.32970452" />
++      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
++      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
++      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
++      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
++      <window_info anchor="bottom" id="Message" order="0" />
++      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
++    </layout>
++  </component>
++  <component name="VcsContentAnnotationSettings">
++    <option name="myLimit" value="2678400000" />
++  </component>
++  <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uhc/data/sparkscalamethods.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="85">
++          <caret line="5" selection-start-line="5" selection-end-line="5" />
++          <folding>
++            <element signature="e#22#98#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/methods.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="238">
++          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/pom.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="425">
++          <caret line="25" selection-start-line="25" selection-end-line="25" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/configuration.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="493">
++          <caret line="29" selection-start-line="26" selection-start-column="5" selection-end-line="29" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/Pro.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="357">
++          <caret line="21" selection-start-line="21" selection-end-line="21" />
++          <folding>
++            <element signature="e#0#49#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/dateparsing.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="34">
++          <caret line="2" column="57" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="57" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/CSVfile.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="476">
++          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
++          <folding>
++            <element signature="e#0#38#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/pom.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="425">
++          <caret line="25" selection-start-line="25" selection-end-line="25" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/configuration.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="204">
++          <caret line="12" column="72" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="72" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/Pro.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="306">
++          <caret line="18" selection-start-line="18" selection-end-line="18" />
++          <folding>
++            <element signature="e#0#49#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar!/META-INF/MANIFEST.MF">
++      <provider selected="true" editor-type-id="text-editor" />
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/Pro.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="357">
++          <caret line="21" selection-start-line="21" selection-end-line="21" />
++          <folding>
++            <element signature="e#0#49#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/pom.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="394">
++          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/configuration.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="388">
++          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/dateparsing.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="102">
++          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/package-info.java" />
++    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uhc/data/sparkscalamethods.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="154">
++          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
++          <folding>
++            <element signature="e#22#98#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/methods.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="119">
++          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/CSVfile.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="81">
++          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
++          <folding>
++            <element signature="e#0#38#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++  </component>
++  <component name="masterDetails">
++    <states>
++      <state key="ArtifactsStructureConfigurable.UI">
++        <settings>
++          <artifact-editor />
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="FacetStructureConfigurable.UI">
++        <settings>
++          <last-edited>No facets are configured</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="GlobalLibrariesConfigurable.UI">
++        <settings>
++          <last-edited>scala-sdk-2.11.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="JdkListConfigurable.UI">
++        <settings>
++          <last-edited>1.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ModuleStructureConfigurable.UI">
++        <settings>
++          <last-edited>sparkdev1</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++                <option value="0.6" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ProjectJDKs.UI">
++        <settings>
++          <last-edited>1.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ProjectLibrariesConfigurable.UI">
++        <settings>
++          <last-edited>scala-sdk-2.11.0</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++    </states>
++  </component>
++</project>
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/src/main/scala/com/uhc/data/sparkscalamethods.scala
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/src/main/scala/com/uhc/data/sparkscalamethods.scala	(date 1547714044966)
++++ IdeaProjects/sparkdev1/src/main/scala/com/uhc/data/sparkscalamethods.scala	(date 1547714044966)
+@@ -0,0 +1,67 @@
++package com.uhc.data
++
++import org.apache.spark.sql.execution.datasources.csv.TextInputCSVDataSource
++import org.apache.spark.{SparkConf, SparkContext}
++import org.spark_project.jetty.server.Authentication.User
++
++case class details(name:String)
++
++class sparkscalamethods() {
++
++  // file loading method
++
++  def fileloading(sc: SparkContext) {
++    val filerdd = sc.textFile("")
++    val newUsersPair = filerdd.map { t =>
++      val p = t.split("\t")
++      (p(0).toInt, p(3))
++    }
++
++    val lines = filerdd.map(x => x.split("\t")).cache()
++    val count = lines.reduce()
++    val result = lines.collect()
++
++
++  }
++
++  def function(sc: SparkContext, throwable: Throwable) {
++    try {
++      val filterFunction: String => Boolean =
++        (s: String) => s.contains("vinay") || s.contains("uhgprovider")
++      print(filterFunction)
++    } catch {
++      case nullPointerException: NullPointerException => print("null pointer exception occured ")
++
++    }
++
++    def trans(sc: SparkContext): Unit = {
++      try {
++      }
++      val users: List[(Int, User)] = Textinput.fromTextfile()
++
++      def joins(): Unit = {
++       // val newjoins =
++
++
++    catch
++    {
++      case e: ArithmeticException => print("An exception occured ")
++    }
++  }
++}
++
++object sparkscalamethods1 {
++
++  def main(args: Array[String]): Unit = {
++
++
++    val conf = new SparkConf().setMaster("local").setAppName("uhc")
++    val sc = new SparkContext(conf) \
++
++
++  }
++
++
++
++
++}
+Index: IdeaProjects/sparkdev1/src/main/scala/configuration.scala
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/src/main/scala/configuration.scala	(date 1547625918957)
++++ IdeaProjects/sparkdev1/src/main/scala/configuration.scala	(date 1547625918957)
+@@ -0,0 +1,37 @@
++import org.apache.spark.{SparkConf, SparkContext}
++
++
++
++    case class Id(Code:String,text:String)
++    case class columnheaders(id: String, name:String, dept: String,Address: String)
++
++object configuration {
++  def main(args: Array[String]): Unit = {
++    def LL() {
++      throw Exception
++    }
++
++    try {
++      val conf = new SparkConf().setMaster("local").setAppName("sparkapp")
++      val sc = new SparkContext(conf)
++      sc.setLogLevel("WARN")
++      sc.setLogLevel("ERROR")
++
++
++      val data = Array(1, 2, 3, 4, 5)
++      val distData = sc.parallelize(data)
++      val count = data.
++        map { x =>
++
++        }
++
++
++    } catch {
++      case _: Throwable => println("An exception occurred")
++    }
++
++
++  }
++}
++
++
+Index: IdeaProjects/sparkdev1/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/pom.xml	(date 1547362368289)
++++ IdeaProjects/sparkdev1/pom.xml	(date 1547362368289)
+@@ -0,0 +1,35 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>com.spark</groupId>
++    <artifactId>sparkdev</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++<dependencies>
++
++    <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-hive -->
++    <dependency>
++        <groupId>org.apache.spark</groupId>
++        <artifactId>spark-hive_2.11</artifactId>
++        <version>2.2.1</version>
++        <scope>provided</scope>
++    </dependency>
++    <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
++    <dependency>
++        <groupId>org.apache.spark</groupId>
++        <artifactId>spark-core_2.11</artifactId>
++        <version>2.2.0</version>
++    </dependency>
++
++    <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
++    <dependency>
++        <groupId>org.apache.spark</groupId>
++        <artifactId>spark-sql_2.11</artifactId>
++        <version>2.2.0</version>
++    </dependency>
++
++</dependencies>
++</project>
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/src/main/scala/CSVfile.scala
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/src/main/scala/CSVfile.scala	(date 1547625961531)
++++ IdeaProjects/sparkdev1/src/main/scala/CSVfile.scala	(date 1547625961531)
+@@ -0,0 +1,42 @@
++import org.apache.spark.sql.SQLContext
++import org.apache.spark.{SparkConf, SparkContext}
++import scala._
++import scala.collection._
++import collection.mutable._
++import collection.immutable._
++
++
++class CSVfile {
++
++  case class employee(empno: String, ename: String, designation: String, manager: String, hire_date: String, sal: Float, deptno: Int)
++
++  case class date(date: String, longitude: String, Time: String, latitude: String)
++
++  def configuration(throwable: Throwable) {
++
++    val conf = new SparkConf().setAppName("csvfile processing").setMaster("local")
++    val sc = new SparkContext(conf)
++    val sQLContext = new SQLContext(sc)
++    val textrdd = sc.textFile("C:\\Users\\lreddy15\\Downloads\\emp_data.csv", 10)
++    val emprdd = textrdd.map({ line => line.split("\t") }).cache()
++
++
++
++    val col = employee(col(0), col(1), col(2), col(3), col(4), col(5), col(6))
++
++
++
++
++  catch
++    {
++
++      case _: Throwable => println("An exception occurred")
++
++    }
++      def parsedate(line: String, throwable: String){}
++
++//val tra= Set(emprdd)
++//    tra.seq(90:Int, "vinay": String, "IT": String, "ABC": String, "10-aug-2015": String,"10000": Float, "1048789": Int)
++
++  }
++}
+Index: IdeaProjects/sparkdev1/src/main/scala/dateparsing.scala
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/src/main/scala/dateparsing.scala	(date 1547470575583)
++++ IdeaProjects/sparkdev1/src/main/scala/dateparsing.scala	(date 1547470575583)
+@@ -0,0 +1,6 @@
++class dateparsing(employee:String) extends CSVfile {
++
++  override def parsedate(line: String, throwable: String): date = ???
++
++  val lines=emprdd.dateparsing.super
++}
+Index: IdeaProjects/sparkdev1/src/main/scala/methods.scala
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/src/main/scala/methods.scala	(date 1547714154252)
++++ IdeaProjects/sparkdev1/src/main/scala/methods.scala	(date 1547714154252)
+@@ -0,0 +1,18 @@
++class methods {
++
++  val s = Array(1, 2, 3, 4, 5, 6, 7, 8, 90, 98, 7, 6)
++
++}
++  object HelloWorld {
++    def main(args: Array[String]) {
++
++val list[String]:List=List[1,2,3,4]
++      list(0)
++      println(list(0))
++
++  }
++
++
++
++  
++}
+Index: IdeaProjects/sparkdev1/sparkdev1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/sparkdev1.iml	(date 1547303370235)
++++ IdeaProjects/sparkdev1/sparkdev1.iml	(date 1547303370235)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/.idea/misc.xml	(date 1547303358214)
++++ IdeaProjects/sparkdev1/.idea/misc.xml	(date 1547303358214)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/.idea/vcs.xml	(date 1547714395340)
++++ IdeaProjects/sparkdev1/.idea/vcs.xml	(date 1547714395340)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$USER_HOME$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/src/main/scala/Pro.scala
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/src/main/scala/Pro.scala	(date 1547456136795)
++++ IdeaProjects/sparkdev1/src/main/scala/Pro.scala	(date 1547456136795)
+@@ -0,0 +1,25 @@
++import org.apache.spark.{SparkConf, SparkContext}
++import scala._
++import org.apache._
++import org.apache.spark.SPARK_BRANCH
++
++import org.apache.spark.SPARK_BUILD_DATE
++
++object Pro {
++  def main(args: Array[String]): Unit = {
++
++
++    val conf = new SparkConf().setMaster("local").setAppName("sparkapp")
++    val sc = new SparkContext(conf)
++    val x = List{1,2,3,4,5};
++    val df=sc.parallelize(x)
++    val splitdf=df.randomSplit(Array(1,2,3,4,5))
++    val (df1,df2,df3,df4,df5)=(splitdf(0),splitdf(1).foreach(x))
++    val somplerdd = sc.parallelize("x")
++
++    )
++
++
++
++  }
++}
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/.idea/hydra.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/.idea/hydra.xml	(date 1547304545866)
++++ IdeaProjects/sparkdev1/.idea/hydra.xml	(date 1547304545866)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="HydraSettings">
++    <option name="hydraStorePath" value="C:\Users\lreddy15\IdeaProjects\sparkdev1\.hydra\idea" />
++    <option name="noOfCores" value="2" />
++    <option name="projectRoot" value="C:\Users\lreddy15\IdeaProjects\sparkdev1" />
++    <option name="sourcePartitioner" value="auto" />
++  </component>
++</project>
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/.idea/libraries/scala_sdk_2_11_0.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/.idea/libraries/scala_sdk_2_11_0.xml	(date 1547624286069)
++++ IdeaProjects/sparkdev1/.idea/libraries/scala_sdk_2_11_0.xml	(date 1547624286069)
+@@ -0,0 +1,22 @@
++<component name="libraryTable">
++  <library name="scala-sdk-2.11.0" type="Scala">
++    <properties>
++      <compiler-classpath>
++        <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar" />
++        <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.0.jar" />
++        <root url="file://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar" />
++      </compiler-classpath>
++    </properties>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.0.jar!/" />
++      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar!/" />
++      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.0-sources.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.0-javadoc.jar!/" />
++      <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.11.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/.idea/compiler.xml	(date 1547714397043)
++++ IdeaProjects/sparkdev1/.idea/compiler.xml	(date 1547714397043)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="sparkdev1" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: IdeaProjects/sparkdev1/.idea/sbt.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- IdeaProjects/sparkdev1/.idea/sbt.xml	(date 1547361996848)
++++ IdeaProjects/sparkdev1/.idea/sbt.xml	(date 1547361996848)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ScalaSbtSettings">
++    <option name="customVMPath" />
++  </component>
++</project>
+\ No newline at end of file
